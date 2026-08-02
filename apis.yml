@@ -1,8 +1,14 @@
 aid: vir
 name: Vir
-description: 'Vir is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vir Biotechnology, Inc. (NASDAQ: VIR) is a clinical-stage immunology company
+  headquartered in San Francisco that combines immunologic insights with modern technology
+  platforms to treat and prevent serious infectious diseases and, increasingly, cancer.
+  Its pipeline spans chronic hepatitis B and D, respiratory infections, and dual-masked
+  T-cell engagers for solid tumors, built on antibody, T-cell, innate-immunity, and
+  small interfering RNA (siRNA) platforms. Vir is a research and corporate organization
+  surfaced as a portfolio company of SoftBank Vision Fund; as of this enrichment pass it
+  publishes no public developer API, SDK, MCP server, or developer portal — only its
+  corporate and investor websites.'
 url: https://raw.githubusercontent.com/api-evangelist/vir/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,49 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.vir.bio/themes/default/images/ogimage.jpg
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Immunology
+- Infectious Disease
+- Oncology
+- Pharmaceuticals
+- Clinical Research
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vir-domain-security.yml
+- type: Website
+  url: https://www.vir.bio
+- type: Support
+  url: https://www.vir.bio/contact/
+- type: TermsOfService
+  url: https://www.vir.bio/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.vir.bio/privacy-notice/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
