@@ -1,14 +1,12 @@
 aid: vir
 name: Vir
-description: 'Vir Biotechnology, Inc. (NASDAQ: VIR) is a clinical-stage immunology company
-  headquartered in San Francisco that combines immunologic insights with modern technology
-  platforms to treat and prevent serious infectious diseases and, increasingly, cancer.
-  Its pipeline spans chronic hepatitis B and D, respiratory infections, and dual-masked
-  T-cell engagers for solid tumors, built on antibody, T-cell, innate-immunity, and
-  small interfering RNA (siRNA) platforms. Vir is a research and corporate organization
-  surfaced as a portfolio company of SoftBank Vision Fund; as of this enrichment pass it
-  publishes no public developer API, SDK, MCP server, or developer portal — only its
-  corporate and investor websites.'
+description: 'Vir Biotechnology, Inc. (NASDAQ: VIR) is a clinical-stage immunology company headquartered in San
+  Francisco that combines immunologic insights with modern technology platforms to treat and prevent serious infectious
+  diseases and, increasingly, cancer. Its pipeline spans chronic hepatitis B and D, respiratory infections, and
+  dual-masked T-cell engagers for solid tumors, built on antibody, T-cell, innate-immunity, and small interfering
+  RNA (siRNA) platforms. Vir is a research and corporate organization surfaced as a portfolio company of SoftBank
+  Vision Fund; as of this enrichment pass it publishes no public developer API, SDK, MCP server, or developer portal
+  — only its corporate and investor websites.'
 url: https://raw.githubusercontent.com/api-evangelist/vir/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -63,6 +61,8 @@ common:
   url: https://www.vir.bio/terms-of-use/
 - type: PrivacyPolicy
   url: https://www.vir.bio/privacy-notice/
+- type: Website
+  url: http://vir.bio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
